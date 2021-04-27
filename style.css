@@ -200,7 +200,7 @@ a:hover {
 }
 .foot {
   background-color: rgb(118, 118, 56);
-  height: 100vh;
+  min-height: 300px;
   color: wheat;
   text-transform: capitalize;
   text-align: center;
