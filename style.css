@@ -1,0 +1,330 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: linear-gradient(rgba(0, 0, 244, 0.6), rgba(0, 0, 244, 0.6));
+  height: 80px;
+  align-items: center;
+  /* padding: 0 20px 0 20px;
+  margin: 0 20px 0 0; */
+  padding: 0 30px 0 30px;
+  color: white;
+}
+a {
+  text-decoration: none;
+  padding: 8px;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  /* transition: 2s ease-in-out; */
+  color: white;
+}
+a:hover {
+  color: rgb(213, 33, 21);
+  transition: 1s ease-in-out;
+}
+
+.menu-btn {
+  display: none;
+}
+.container-about {
+  /* display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* background: linear-gradient((rgba(0, 0, 233, 0.6)), rgba(0, 0, 233, 0.6)); */
+  /* height: 150px;
+  bac */
+  display: flex;
+  background: rgba(0, 0, 233, 0.6);
+  justify-content: space-between;
+  min-height: 600px;
+  /* margin: 0 20px 0 30pxs; */
+  padding: 0 0 0 30px;
+}
+.diz {
+  line-height: 80px;
+}
+.intro {
+  font-size: 30px;
+  font-weight: 200;
+  line-height: 76px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+  font-family: muli;
+  color: rgb(242, 242, 242);
+}
+.profile-pic {
+  height: 650px;
+  /* background: linear-gradient(
+        rgba(40, 31, 91, 0.5),
+        rgba(40, 31, 91, 0.5),
+        rgba(40, 31, 91, 0.5)
+      )
+      center center / cover,
+    url(/image/pic1.jpg); */
+  background-position: center center;
+  border-radius: 100% 0px 0px 100%;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  min-height: 300px;
+  box-shadow: burlywood;
+  /* border: 2px solid grey; */
+  grid-gap: 20px;
+  padding: 0 40px 0 40px;
+}
+.card2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  min-height: 200px;
+  padding-top: 40px;
+  grid-gap: 20px;
+}
+.btn-container {
+  text-align: center;
+  padding: 35px 0px;
+}
+
+.line_btn:hover {
+  color: royalblue;
+  transition: 1s ease-in-out;
+}
+.line_btn {
+  font-size: 15px;
+  color: black;
+  text-transform: capitalize;
+  font-weight: 300;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(210, 209, 231);
+  padding: 13px;
+}
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+}
+.about {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  min-height: 500px;
+  grid-gap: 20px;
+  background-image: linear-gradient(
+    rgba(23, 45, 22, 0.6),
+    rgba(34, 45, 55, 0.6),
+    url(/image/pic3.jpg)
+  );
+}
+
+.abt {
+  align-items: center;
+  text-align: center;
+  font-size: 24px;
+  padding: 20px;
+  font-family: serif;
+  font-weight: bolder;
+  line-height: 24px;
+}
+.serve {
+  text-transform: capitalize;
+  text-align: center;
+  line-height: 80px;
+  font-size: 40px;
+  align-items: center;
+  padding: 40px 0 0 0;
+}
+.c {
+  background-color: transparent;
+  border: 1px solid red;
+  text-align: center;
+  padding: 70px 0 0 0;
+}
+.cc {
+  text-align: center;
+  background-color: transparent;
+  border: 1px solid red;
+  padding: 70px 0 0 0;
+}
+.ccc {
+  text-align: center;
+  background-color: transparent;
+  border: 1px solid red;
+  padding: 70px 0 0 0;
+}
+.stuff {
+  font-size: 50px;
+  text-transform: capitalize;
+  text-align: center;
+  height: 80px;
+  /* line-height: 30px; */
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.card2 div img {
+  height: 400px;
+  width: 100%;
+  padding: 30px;
+  object-fit: cover;
+}
+.card3 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 4px;
+  min-height: 200px;
+  padding: 8px;
+}
+/* .cd1 {
+  background-color: transparent;
+  border: 1px solid teal;
+}
+.cd2 {
+  background-color: transparent;
+  border: 1px solid teal;
+}
+.cd3 {
+  background-color: transparent;
+  border: 1px solid teal;
+} */
+.card3 div {
+  background-color: transparent;
+  border: 1px solid teal;
+}
+.foot {
+  background-color: rgb(8, 8, 56);
+  height: 100vh;
+  color: wheat;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 100px;
+  width: 100%;
+}
+
+.foot h1 {
+  font-size: 50px;
+}
+.btn-contact {
+  display: inline-block;
+  font-size: 15px;
+  color: rgb(97, 92, 253);
+  text-transform: capitalize;
+  font-weight: 600;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(97, 92, 253);
+  /* border-image: initial; */
+  padding: 13px 34px;
+  margin-top: 50px;
+}
+.more-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 150px;
+  padding: 0 40px 0 40px;
+}
+
+hr {
+  margin: 40px;
+}
+
+@media (min-width: 200px) and (max-width: 480px) {
+  .serve h1 {
+    font-size: 80%;
+  }
+  .stuff span {
+    font-size: 70%;
+    color: gold;
+  }
+  .container-about {
+    display: grid;
+    grid-template-columns: 2fr;
+  }
+  .profile-pic {
+    display: none;
+  }
+
+  .about {
+    grid-template-columns: 1fr;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .stuff {
+    grid-template-columns: 1fr;
+    display: grid;
+  }
+
+  .card2 {
+    grid-template-columns: 1fr;
+  }
+
+  .card3 {
+    grid-template-columns: 1fr;
+  }
+  .img img {
+    height: 400px;
+  }
+
+  .more-info {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: justify;
+    row-gap: 30px;
+  }
+  .foot p {
+    padding: 0px 16px 10px 16px;
+    /* margin-bottom: 20px; */
+  }
+
+  .foot h1 {
+    font-size: 150%;
+  }
+
+  .about img {
+    object-fit: cover;
+    width: 100%;
+    padding: 0 3% 15px 3%;
+  }
+
+  .sm {
+    display: none;
+  }
+  .menu-btn {
+    display: block;
+  }
+
+  header {
+    position: relative;
+  }
+  header nav {
+    position: absolute;
+    top: 80px;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    left: 0;
+    transform: translateY(-500px);
+    z-index: 0;
+    transition: 0.5s ease-out;
+  }
+
+  header nav.show {
+    transform: translateY(-1px);
+    transition: 0.5s ease-in;
+    z-index: 5;
+  }
+}
